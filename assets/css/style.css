@@ -1,0 +1,100 @@
+html {
+	background: #dddddd;
+}
+body {
+	margin: 0;
+}
+
+p {
+	color:#777777;
+	background: #ffffff;
+}
+h1 {
+	color: #4aaaa5;
+	padding: 1em;
+}
+
+
+#headbar {
+	height: 100px;
+	background: #ffffff;
+	width: 100%;
+	border: 2px solid black;
+}
+
+#name{ 
+	color:#ffffff;
+	background: #4aaaa5;
+	padding: 10px;
+	z-index: 2;
+	/*position: absolute;*/
+
+}
+div.wrapper{
+	width: 80%;
+	margin-left: 15%;
+
+}
+
+.lcontent {
+	float: left;
+	width: 75%;
+	background: #ffffff;
+	
+}
+
+#bio{
+	padding: 1em;
+	/*position: absolute;*/
+
+}
+
+.foot{
+	color: #dddddd;
+	background-color: #666666;
+	text-align: center;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 2rem;
+}
+
+#teal{
+	background-color: #4aaaa5;
+	position: absolute;
+	top: -5px;
+	right: 0;
+	left: 0;
+  	padding: 5px;
+  	z-index: 2;
+
+}
+
+
+/* Clears the float*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+/*
+
+
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+
+
+
+*/
