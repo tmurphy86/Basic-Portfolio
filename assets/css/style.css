@@ -40,22 +40,33 @@ h1 {
 div.wrapper{
 	width: 80%;
 	margin-left: 15%;
+	margin-top: 3em;
 
 }
 
 .lcontent {
 	float: left;
-	width: 60%;
+	width: 65%;
 	background: #ffffff;
-	margin: 0 0 3em 3em;
+	margin: 0 3em 3em 0;
 	/*padding-right: 3em;*/
 	
 }
 
 .rcontent {
 	float: left;
-	/*width: 40%;*/
 	background: #ffffff;
+	text-align: center;
+	width: 240px;
+	height: 180px;
+}
+
+.imglogo {
+	height: 25%;
+	width: 25%;
+	margin: 1em 0 1em 1em;
+	float: left;
+
 }
 
 #bio{
