@@ -14,12 +14,27 @@ h1 {
 	padding: 1em;
 }
 
+.hilinks:hover {
+	background-color: darkgray;
+
+}
+
+.hilink {
+	background-color: lightgray;
+	opacity: 60;
+	position: relative;
+	left: 70%;
+	float: left;
+	top: 20px;
+}
+
+
 
 #headbar {
 	height: 100px;
 	background: #ffffff;
 	width: 100%;
-	border: 2px solid black;
+	border: 2px gray;
 	position: relative;
 }
 
@@ -27,20 +42,25 @@ h1 {
 	color:#ffffff;
 	background: #4aaaa5;
 	padding: 10px;
-	width: 10%;
+	width: 20%;
+	height: 60%;
 	position: absolute;
 	left: 15%;
+	text-align: center;
+	line-height: 50px;
 	bottom: 0;
-	border:2px solid pink;
-
+	/*border:2px solid pink;*/
+	font-size: 24px;
+	font-weight: 400;
 	z-index: 2;
-	/*position: absolute;*/
 
 }
 div.wrapper{
 	width: 80%;
 	margin-left: 15%;
 	margin-top: 3em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 150%;
 
 }
 
@@ -49,8 +69,14 @@ div.wrapper{
 	width: 65%;
 	background: #ffffff;
 	margin: 0 3em 3em 0;
-	/*padding-right: 3em;*/
-	
+}
+
+
+
+.me {
+	margin: 2em;
+	height: 40%;
+	width: 40%;
 }
 
 .rcontent {
@@ -71,7 +97,7 @@ div.wrapper{
 
 #bio{
 	padding: 1em;
-	/*position: absolute;*/
+	float: right;
 
 }
 
