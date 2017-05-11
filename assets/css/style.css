@@ -13,6 +13,8 @@ h1 {
 	color: #4aaaa5;
 	padding: 1em;
 	font-size: 20px;
+	border-bottom-color: lightgray;
+	border-bottom-width: 20px;
 }
 
 .hilinks:hover {
@@ -86,6 +88,19 @@ div.wrapper{
 	float: left;
 	height: 40%;
 	width: 40%;
+}
+
+.floatbar{
+	/*padding: 20px;*/
+	background-color: #4aaaa5;
+	z-index: 5;
+	width: 50px;
+	position: absolute;
+	left: -40%;
+}
+
+.squares {
+
 }
 
 .work {
