@@ -13,8 +13,19 @@ h1 {
 	color: #4aaaa5;
 	padding: 1em;
 	font-size: 20px;
-	border-bottom-color: lightgray;
-	border-bottom-width: 20px;
+	/*border-bottom-color: lightgray;
+	border-bottom-width: 2px;*/
+}
+.underscore {
+	border-bottom: 2px solid lightgray;
+	width: 60%;
+	margin: 0 0 0 3em;
+}
+
+.underscorel {
+	border-bottom: 2px solid lightgray;
+	width: 90%;
+	margin: 0 0 0 1em;
 }
 
 .hilinks:hover {
@@ -23,7 +34,7 @@ h1 {
 }
 
 .hilink {
-	background-color: lightgray;
+	/*background-color: lightgray;*/
 	opacity: 0.6;
 	position: relative;
 	left: 70%;
@@ -34,8 +45,6 @@ h1 {
 	font-size: 20px;
 	border-radius: 2px 0 2px 0;
 }
-
-
 
 #headbar {
 	height: 100px;
@@ -61,15 +70,14 @@ h1 {
 	font-size: 24px;
 	font-weight: 400;
 	z-index: 2;
-
 }
+
 div.wrapper{
 	width: 80%;
 	margin-left: 15%;
 	margin-top: 3em;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 150%;
-
 }
 
 .lcontent {
@@ -78,7 +86,6 @@ div.wrapper{
 	background: #ffffff;
 	margin: 0 3em 3em 0;
 	padding-left: 1em;
-	
 }
 
 
@@ -90,17 +97,96 @@ div.wrapper{
 	width: 40%;
 }
 
-.floatbar{
+/*.box {
+	width: 90%;
+	height: 200px;
+	position: absolute;
+	float: left;
+
+	}*/
+
+
+#floatbar{
 	/*padding: 20px;*/
 	background-color: #4aaaa5;
-	z-index: 5;
-	width: 50px;
+	z-index: 2;
+	height: 50px;
+    width: 200px;
+    margin: 11em 1em 0 16px;
+    padding: 0 52px 0 0;
+    position: absolute;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+#floatbar1{
+	/*padding: 20px;*/
+	background-color: #4aaaa5;
+	z-index: 2;
+	height: 50px;
+    width: 200px;
+    margin: 11em 5em 0 300px;
+  	padding: 0 53px 0 0;
 	position: absolute;
-	left: -40%;
+	text-align: right;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 50px;
+}
+#floatbar2{
+	background-color: #4aaaa5;
+	z-index: 2;
+	height: 5%;
+    width: 20%;
+    margin: 27em 10em 0 1em;
+  	padding: 0 .5em 0 0;
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+#floatbar3{
+	background-color: #4aaaa5;
+	z-index: 2;
+	height: 5%;
+    width: 20%;
+    margin: 27em 10em 0 300px;
+  	padding: 0 10px 0 0;
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+#floatbar4{
+	background-color: #4aaaa5;
+	z-index: 2;
+	height: 5%;
+    width: 20%;
+    margin: 41em 0 0 1em;
+  	padding: 0 .3em 0 0;
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 50px;
 }
 
 .squares {
-
+	margin: 1em;
+	float: left;
+	height: 40%;
+	width: 40%;
 }
 
 .work {
@@ -123,7 +209,6 @@ div.wrapper{
 	width: 25%;
 	margin: 1em 0 1em 1em;
 	float: left;
-
 }
 
 #bio{
@@ -131,7 +216,6 @@ div.wrapper{
 	float: left;
 	width: 40%;
 	text-align: left;
-
 }
 
 .foot{
@@ -143,6 +227,7 @@ div.wrapper{
   	bottom: 0;
   	left: 0;
   	padding: 2rem;
+  	z-index: 5;
 }
 
 #teal{
@@ -152,10 +237,39 @@ div.wrapper{
 	right: 0;
 	left: 0;
   	padding: 5px;
-  	z-index: 2;
-
+  	z-index: 6;
 }
 
+.input {
+	width: 90%;
+	color: gray;
+	border: 2px solid lightgray;
+	margin: 0 0 .5em 1em;
+}
+
+.inputname {
+	width: 90%;
+	margin: .5em 1em .5em 1em;
+}
+
+#messagebox {
+	border: 2px solid lightgray;
+	align-content: center;
+	height: 300px;
+	width: 90%;
+	margin: 0 0 3em 1em;
+}
+
+#submit {
+	color:#ffffff;
+	background: #4aaaa5;
+	padding: 10px;
+	width: 20%;
+	height: 60%;
+	left: 15%;
+	margin: 0 0 2em 1em;
+	text-align: center;
+}
 
 /* Clears the float*/
 .clearfix::after {
