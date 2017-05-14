@@ -1,6 +1,7 @@
 html {
 	background-image: url("../images/nasty_fabric.png");
 }
+
 body {
 	margin: 0;
 }
@@ -9,13 +10,13 @@ p {
 	color:#777777;
 	background: #ffffff;
 }
+
 h1 {
 	color: #4aaaa5;
 	padding: 1em;
 	font-size: 20px;
-	/*border-bottom-color: lightgray;
-	border-bottom-width: 2px;*/
 }
+
 .underscore {
 	border-bottom: 2px solid lightgray;
 	width: 60%;
@@ -34,7 +35,6 @@ h1 {
 }
 
 .hilink {
-	/*background-color: lightgray;*/
 	opacity: 0.6;
 	position: relative;
 	left: 70%;
@@ -52,7 +52,6 @@ h1 {
 	width: 100%;
 	border: 2px gray;
 	position: relative;
-
 }
 
 #name{ 
@@ -88,8 +87,6 @@ div.wrapper{
 	padding-left: 1em;
 }
 
-
-
 .me {
 	margin: 1em;
 	float: left;
@@ -97,96 +94,30 @@ div.wrapper{
 	width: 40%;
 }
 
-/*.box {
-	width: 90%;
-	height: 200px;
-	position: absolute;
+.boxsize {
+	margin: 1em;
 	float: left;
-
-	}*/
-
-
-#floatbar{
-	/*padding: 20px;*/
-	background-color: #4aaaa5;
-	z-index: 2;
-	height: 50px;
-    width: 200px;
-    margin: 11em 1em 0 16px;
-    padding: 0 52px 0 0;
-    position: absolute;
-    text-align: right;
-    color: white;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 50px;
-}
-
-#floatbar1{
-	/*padding: 20px;*/
-	background-color: #4aaaa5;
-	z-index: 2;
-	height: 50px;
-    width: 200px;
-    margin: 11em 5em 0 300px;
-  	padding: 0 53px 0 0;
-	position: absolute;
-	text-align: right;
-	color: white;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 50px;
-}
-#floatbar2{
-	background-color: #4aaaa5;
-	z-index: 2;
-	height: 5%;
-    width: 20%;
-    margin: 27em 10em 0 1em;
-  	padding: 0 .5em 0 0;
-	position: absolute;
-	text-align: center;
-	color: white;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 50px;
-}
-
-#floatbar3{
-	background-color: #4aaaa5;
-	z-index: 2;
-	height: 5%;
-    width: 20%;
-    margin: 27em 10em 0 300px;
-  	padding: 0 10px 0 0;
-	position: absolute;
-	text-align: center;
-	color: white;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 50px;
-}
-
-#floatbar4{
-	background-color: #4aaaa5;
-	z-index: 2;
-	height: 5%;
-    width: 20%;
-    margin: 41em 0 0 1em;
-  	padding: 0 .3em 0 0;
-	position: absolute;
-	text-align: center;
-	color: white;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 50px;
+	width: 40%;
+	position:relative;
 }
 
 .squares {
 	margin: 1em;
-	float: left;
-	height: 40%;
-	width: 40%;
+	/*float: left;*/
+	height: 100%;
+	width: 100%;
+}
+
+.floatbar{
+	background-color: #4aaaa5;
+	position:absolute;
+	width:100%;
+    top: calc(70% - 16px);
+    padding: .5em 0 .5em 0; 
+  	margin: 0 0 0 1em;
+    text-align: center; 
+    color:white;
+    font-size: 16px;
 }
 
 .work {
@@ -213,8 +144,6 @@ div.wrapper{
 
 #bio{
 	padding: 1em;
-	float: left;
-	width: 40%;
 	text-align: left;
 }
 
@@ -277,23 +206,3 @@ div.wrapper{
 	display: block;
 	clear: both;
 }
-
-
-
-/*
-
-
-Teal color (used for headings and backgrounds): #4aaaa5
-Regular font color (used for paragraphs and all text besides the headings): #777777
-Main header background color: #ffffff
-Main header border color: #cccccc
-Footer background color: #666666
-Main content background color: #ffffff
-Main content border color: #dddddd
-Fonts:
-For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
-For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
-
-
-
-*/
